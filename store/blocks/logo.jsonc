@@ -1,0 +1,10 @@
+{
+  "logo#desktop": {
+    "props": {
+      "url": "assets/brand/unimarc-logo.png",
+      "href": "/",
+      "title": "Unimarc",
+      "height": 40
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#full-banner": {
+    "props": {
+      "blockClass": "full-banner"
+    },
+    "children": ["list-context.image-list#demo"]
+  },
+  "list-context.image-list#demo": {
+    "children": ["slider-layout#demo-images"],
+    "props": {
+      "height": 360,
+      "images": [
+        {
+          "image": "assets/banners/banner_01.png",
+          "description": "something something"
+        },
+        {
+          "image": "assets/banners/banner_02.png",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#demo-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
+      },
+      "infinite": true
+    }
+  }
+}

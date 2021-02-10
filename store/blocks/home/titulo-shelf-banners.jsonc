@@ -1,0 +1,48 @@
+{
+  "flex-layout.row#titulo-shelf-banners": {
+    "children": ["rich-text#titulo-shelf-banners"]
+  },
+  "flex-layout.row#shelf-banners": {
+    "props": {
+      "colGap": 8
+    },
+    "children": [
+      "flex-layout.col#image-shelf-banner",
+      "flex-layout.col#shelf-banner"
+    ]
+  },
+  "flex-layout.row#shelf-banner": {
+    "children": ["list-context.product-list#shelf-destaque"]
+  },
+  "responsive-layout.desktop#desktop-shelf": {
+    "children": ["flex-layout.row#shelf-banners"]
+  },
+  "responsive-layout.tablet#tablet-shelf": {
+    "children": ["flex-layout.row#shelf-banner"]
+  },
+  "responsive-layout.phone#phone-shelf": {
+    "children": ["flex-layout.row#shelf-banner"]
+  },
+
+  "rich-text#titulo-shelf-banners": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¡Qué rico quedarse en casa con las recetas **fáciles y sencillas** que trae Nacho Román!",
+      "font": "t-heading-2",
+      "blockClass": "titulo-half-banners"
+    }
+  },
+  "flex-layout.col#image-shelf-banner": {
+    "props": {
+      "width": "25%"
+    },
+    "children": ["image#shelf-banner-1"]
+  },
+  "flex-layout.col#shelf-banner": {
+    "props": {
+      "width": "grow"
+    },
+    "children": ["list-context.product-list#shelf-destaque"]
+  }
+}

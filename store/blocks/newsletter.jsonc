@@ -1,0 +1,30 @@
+{
+  "flex-layout.row#newsletter": {
+    "children": [
+      "flex-layout.col#title-newslleter",
+      "flex-layout.col#newslleter"
+    ]
+  },
+  "flex-layout.col#title-newslleter": {
+    "children": ["rich-text#title-newslleter"]
+  },
+  "rich-text#title-newslleter": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Únete a nuestra lista de correos",
+      "font": "t-heading-2",
+      "blockClass": "titulo-half-banners"
+    }
+  },
+  "flex-layout.col#newslleter": {
+    "children": ["newsletter-form"]
+  },
+  "newsletter-form": {
+    "children": [
+      "newsletter-input-name",
+      "newsletter-input-email",
+      "newsletter-submit"
+    ]
+  }
+}

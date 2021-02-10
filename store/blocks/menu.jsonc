@@ -1,0 +1,48 @@
+{
+  "vtex.menu@2.x:menu#aboutus": {
+    "props": {
+      "orientation": "vertical",
+      "items": [
+        {
+          "id": "menu-item-shop",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "Acerca de nosotros",
+            "text": "Acerca de nosotros"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "Código de Ética",
+            "text": "Código de Ética"
+          }
+        },
+        {
+          "id": "menu-item-about-us",
+          "type": "custom",
+          "iconId": null,
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/about-us",
+            "noFollow": false,
+            "tagTitle": "Defensoría del proveedor",
+            "text": "Defensoría del proveedor"
+          }
+        }
+      ]
+    }
+  }
+}

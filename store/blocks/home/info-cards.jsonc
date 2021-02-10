@@ -1,0 +1,28 @@
+{
+  "flex-layout.row#info-cards": {
+    "props": {
+      "colGap": 5,
+      "marginTop": 8,
+      "marginBottom": 8
+    },
+    "children": [
+      "info-card#banner-info",
+      "info-card#banner-info",
+      "info-card#banner-info"
+    ]
+  },
+  "info-card#banner-info": {
+    "props": {
+      "id": "info-card-example",
+      "isFullModeStyle": true,
+      "textPosition": "right",
+      "imageUrl": "assets/banners/card-banner-02.png",
+      "headline": "Club Ahorro",
+      "subhead": "Ahorra al maximo en cada compra",
+      "callToActionText": "Ver detalle",
+      "callToActionUrl": "/sale/d",
+      "blockClass": "info-card-example",
+      "textAlignment": "center"
+    }
+  }
+}

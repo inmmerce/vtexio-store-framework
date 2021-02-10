@@ -1,0 +1,62 @@
+{
+  "sticky-layout#heading": {
+    "props": {
+      "blockClass": "stick-heading"
+    },
+    "children": ["flex-layout.row#heading"]
+  },
+  "flex-layout.row#heading": {
+    "props": {
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true
+    },
+    "children": [
+      "flex-layout.col#logo-desktop",
+      "flex-layout.col#search",
+      "flex-layout.col#spacer",
+      "flex-layout.col#login",
+      "flex-layout.col#carrito"
+    ]
+  },
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["logo#desktop"]
+  },
+  "flex-layout.col#search": {
+    "props": {
+      "width": "grow"
+    },
+    "children": ["search-bar"]
+  },
+  "flex-layout.col#login": {
+    "children": ["modal-trigger#login-desktop"]
+  },
+  "flex-layout.col#carrito": {
+    "children": ["minicart.v2"]
+  },
+  "modal-trigger#login-desktop": {
+    "children": ["rich-text#login-desktop", "modal-layout#login-desktop"]
+  },
+  "rich-text#login-desktop": {
+    "props": {
+      "blockClass": "login-custom",
+      "text": " Ingresar"
+    }
+  },
+  "modal-layout#login-desktop": {
+    "props": {
+      "fullScreen": true
+    },
+    "children": ["modal-header", "iframe#login-desktop"]
+  },
+  "iframe#login-desktop": {
+    "props": {
+      "blockClass": "iframe-login-desktop",
+      "src": "https://sso.clubahorro.cl/login?client_id=2pmulcp90evh16qn8v89d44m0s&redirect_uri=https%3A%2F%2Fvtexid.vtex.com.br%2FVtexIdAuthSiteKnockout%2FReceiveAuthorizationCode.ashx&format_id=1&response_type=code&state=eyJhbGciOiJFUzI1NiIsImtpZCI6IjlDNzUyREI4NDA4QTNGMTBDQ0MyQzA1QTZBOERGQkFCOEY2MDA5MUIiLCJ0eXAiOiJqd3QifQ.eyJzdWIiOiI5RTgzQ0ZCMzI0RUM5RDQwNDFBMTAyNjQ2M0MxQkM2QTNGQ0ExOTFDRkNCMzM1QTVBQkQ1Nzg3MjUzNDZCNkJEIiwiaXNzIjoidG9rZW4tZW1pdHRlciIsImV4cCI6MTYxMjM2NDU0NywicHJvdmlkZXIiOiJDbHViIEFob3JybyIsImVycm9yVXJsIjoiaHR0cHM6Ly9kZXNwYWNob3MudW5pbWFyYy5jbC9sb2dpbj9vQXV0aFJlZGlyZWN0PUNsdWIgQWhvcnJvJnJldHVyblVybD0vP2xvY2F0b3I9dHJ1ZSIsImlhdCI6MTYxMjM2Mzk0NywianRpIjoiMWE1NGU3MjktMWRiNC00YjAzLWFiOTYtOWIwYjcxNDYyZTgwIn0.p530qnqFoHFtqkBkmtHPhmEyGoN3vTr1lNB5xlyz898bKVPJT5nXkC4N0IpZeFyIqICHjHKV1V2tMBzYZ5qtTg",
+      "width": 800,
+      "height": 800
+    }
+  }
+}

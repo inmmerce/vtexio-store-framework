@@ -1,0 +1,32 @@
+{
+  "image#mdb01": {
+    "props": {
+      "src": "https://dummyimage.com/440x440/000/fff",
+      "maxHeight": 440
+    }
+  },
+  "image#mdb02": {
+    "props": {
+      "src": "https://dummyimage.com/440x440/000/fff",
+      "maxHeight": 440
+    }
+  },
+  "image#mdb03": {
+    "props": {
+      "src": "https://dummyimage.com/440x440/000/fff",
+      "maxHeight": 440
+    }
+  },
+  "image#mdb04": {
+    "props": {
+      "src": "https://dummyimage.com/440x440/000/fff",
+      "maxHeight": 440
+    }
+  },
+  "image#shelf-banner-1": {
+    "props": {
+      "src": "https://dummyimage.com/355x485/000/fff",
+      "maxHeight": 485
+    }
+  }
+}

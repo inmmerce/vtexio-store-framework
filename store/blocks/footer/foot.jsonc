@@ -1,0 +1,47 @@
+{
+  "flex-layout.row#foot": {
+    "props": {
+      "marginBottom": 8
+    },
+    "children": [
+      "flex-layout.col#foot1",
+      "flex-layout.col#foot2",
+      "flex-layout.col#foot3",
+      "flex-layout.col#foot4"
+    ]
+  },
+  "flex-layout.col#foot1": {
+    "children": ["rich-text#title-foot1", "vtex.menu@2.x:menu#aboutus"]
+  },
+  "flex-layout.col#foot2": {
+    "children": ["rich-text#title-foot1", "vtex.menu@2.x:menu#aboutus"]
+  },
+  "flex-layout.col#foot3": {
+    "children": ["rich-text#title-foot1", "vtex.menu@2.x:menu#aboutus"]
+  },
+  "flex-layout.col#foot4": {
+    "children": ["rich-text#title-foot2", "social-networks"]
+  },
+  "rich-text#title-foot1": {
+    "props": {
+      "text": "### Nuestra Empresa"
+    }
+  },
+  "rich-text#title-foot2": {
+    "props": {
+      "text": "### Contáctanos \n\n Consultas, reclamos y sugerencias\n 600 600 0025\ncontacto.unimarc@unimarc.cl\n\n ### Síguenos en:"
+    }
+  },
+  "social-networks": {
+    "props": {
+      "showInColor": true,
+      "socialNetworks": [
+        { "url": "https://facebook.com/unimarc", "name": "facebook" },
+        { "url": "https://linkedin.com/unimarc", "name": "linkedin" },
+        { "url": "https://youtube.com/unimarc", "name": "youtube" },
+        { "url": "https://pinterest.com/unimarc", "name": "pinterest" },
+        { "url": "https://twitter.com/unimarc", "name": "twitter" }
+      ]
+    }
+  }
+}

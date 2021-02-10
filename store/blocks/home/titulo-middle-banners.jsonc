@@ -1,0 +1,57 @@
+{
+  "flex-layout.row#titulo-middle-banners": {
+    "children": ["rich-text#titulo-middle-banners"]
+  },
+  "flex-layout.row#middle-banners": {
+    "props": {
+      "marginBottom": 8
+    },
+    "children": [
+      "flex-layout.col#mdb01",
+      "flex-layout.col#mdb02",
+      "flex-layout.col#mdb03",
+      "flex-layout.col#mdb04"
+    ]
+  },
+  "rich-text#titulo-middle-banners2": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "¡Qué rico quedarse en casa con las recetas **fáciles y sencillas** que trae Nacho Román!",
+      "font": "t-heading-2",
+      "blockClass": "titulo-half-banners"
+    }
+  },
+  "flex-layout.row#titulo-middle-banners2": {
+    "children": ["rich-text#titulo-middle-banners2"]
+  },
+  "flex-layout.row#middle-banners2": {
+    "children": [
+      "flex-layout.col#mdb01",
+      "flex-layout.col#mdb02",
+      "flex-layout.col#mdb03",
+      "flex-layout.col#mdb04"
+    ]
+  },
+  "rich-text#titulo-middle-banners": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Descubre los destacados del mes",
+      "font": "t-heading-2",
+      "blockClass": "titulo-half-banners"
+    }
+  },
+  "flex-layout.col#mdb01": {
+    "children": ["image#mdb01"]
+  },
+  "flex-layout.col#mdb02": {
+    "children": ["image#mdb02"]
+  },
+  "flex-layout.col#mdb03": {
+    "children": ["image#mdb03"]
+  },
+  "flex-layout.col#mdb04": {
+    "children": ["image#mdb04"]
+  }
+}

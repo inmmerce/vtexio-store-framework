@@ -1,0 +1,20 @@
+{
+  "store.home": {
+    "blocks": [
+      // "flex-layout.row#full-banner",
+      // "flex-layout.row#titulo-half-banners",
+      // "flex-layout.row#half-banner",
+      // "flex-layout.row#titulo-middle-banners",
+      // "flex-layout.row#middle-banners",
+      // "flex-layout.row#shelf-destaque",
+      // "flex-layout.row#titulo-middle-banners2",
+      // "flex-layout.row#middle-banners2",
+      // "flex-layout.row#titulo-shelf-banners",
+      // "responsive-layout.desktop#desktop-shelf",
+      // "responsive-layout.tablet#tablet-shelf",
+      // "responsive-layout.phone#phone-shelf",
+      // "flex-layout.row#info-cards",
+      // "flex-layout.row#newsletter"
+    ]
+  }
+}

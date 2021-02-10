@@ -1,0 +1,5 @@
+{
+  "flex-layout.row#mega-menu": {
+    "children": ["mega-menu"]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "flex-layout.row#shelf-destaque": {
+    "children": ["list-context.product-list#shelf-destaque"]
+  },
+  "list-context.product-list#shelf-destaque": {
+    "props": {
+      "category": "1",
+      "orderBy": "OrderByBestDiscountDESC",
+      "hideUnavailableItems": true,
+      "maxItems": 20
+    },
+    "blocks": ["product-summary.shelf"],
+    "children": ["slider-layout#shelf-destaque"]
+  },
+  "slider-layout#shelf-destaque": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true
+    }
+  }
+}

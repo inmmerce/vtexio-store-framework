@@ -1,0 +1,59 @@
+{
+  "flex-layout.row#titulo-half-banners": {
+    "children": ["rich-text#titulo-half-banners"]
+  },
+  "flex-layout.row#half-banner": {
+    "children": ["list-context.image-list#half-banners"]
+  },
+  "rich-text#titulo-half-banners": {
+    "props": {
+      "textAlignment": "CENTER",
+      "textPosition": "CENTER",
+      "text": "Aprovecha las ofertas con despacho gratis",
+      "font": "t-heading-2",
+      "blockClass": "titulo-half-banners"
+    }
+  },
+  "list-context.image-list#half-banners": {
+    "children": ["slider-layout#half-banners-images"],
+    "props": {
+      "height": 200,
+      "images": [
+        {
+          "image": "https://dummyimage.com/220x200/000/fff",
+          "description": "something something"
+        },
+        {
+          "image": "https://dummyimage.com/220x200/000/fff",
+          "description": "something something"
+        },
+        {
+          "image": "https://dummyimage.com/220x200/000/fff",
+          "description": "something something"
+        },
+        {
+          "image": "https://dummyimage.com/220x200/000/fff",
+          "description": "something something"
+        },
+        {
+          "image": "https://dummyimage.com/220x200/000/fff",
+          "description": "something something"
+        },
+        {
+          "image": "https://dummyimage.com/220x200/000/fff",
+          "description": "something something"
+        }
+      ]
+    }
+  },
+  "slider-layout#half-banners-images": {
+    "props": {
+      "itemsPerPage": {
+        "desktop": 5,
+        "tablet": 3,
+        "phone": 2
+      },
+      "infinite": true
+    }
+  }
+}
